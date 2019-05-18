@@ -23,7 +23,8 @@ p {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
+  text-shadow: 0px 0px 10px #000;
 }
 a {
   color: {{ site.link-col }};
@@ -119,13 +120,13 @@ img {
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
-  font-weight: 800;
+  font-weight: 400;
   color: {{ site.navbar-text-col }};
 }
 
@@ -342,7 +343,9 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 38px;
+  font-weight: 300;
+  text-shadow: 0px 0px 10px #000;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -383,7 +386,9 @@ footer .theme-by {
   width: 192px;
 }
 .post-preview .post-read-more {
-  font-weight: 800;
+  font-weight: 600;
+  font-style: italic;
+  color: #7A8;
 }
 
 @media only screen and (min-width: 768px) {
@@ -489,7 +494,8 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: italic;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -498,7 +504,7 @@ footer .theme-by {
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
-  font-weight: 400;
+  font-weight: 300;
 }
 .intro-header.big-img .page-heading hr {
   box-shadow: 1px 1px 3px #000;
