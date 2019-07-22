@@ -29,8 +29,8 @@ navbar-links:
   #Issues: "https://github.com/rre36/GLSL-ShaderRepo/issues"
   License: "https://github.com/rre36/glProjectsWeb/blob/master/LICENSE"
   Projects: 
-    - Kappa Shader: "https://rre36.github.io/GLSL-ShaderRepo/"
-    - Nostalgia Shader: "https://rre36.github.io/GLSL-LegacyShader"
+    - Kappa Shader: "https://rre36.github.io/glsl_kappa/"
+    - Nostalgia Shader: "https://rre36.github.io/glsl_nostalgia"
     - Various Projects: "http://rre36.github.io/glProjectsWeb"
     - RRe36's Shader: "https://rre36.github.io/rre36-shader-legacy"
 
