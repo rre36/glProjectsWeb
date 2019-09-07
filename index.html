@@ -5,12 +5,26 @@ subtitle: Various small shader projects of mine
 use-site-title: true
 bigimg: 
   - "/img/background.jpg"
+  - "/img/background1.jpg"
   - "/img/background2.jpg"
 ---
 
 <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/rre36/glsl_vplus/total?color=%234b1&style=for-the-badge">
 <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/rre36/glsl_vplus?label=Vanilla%20Plus%20Release&style=for-the-badge">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/rre36/glsl_vplus?color=%234b1&style=for-the-badge">
+<br>
+<div>
+  <h3>What can I find here?</h3>
+  This page hosts smaller shader-based projects of mine. Currently it is only Vanilla Plus but there might be more to come.
+  <br>
+  <table style="width:50%; border:none; background:none">
+  <tr style="width:50%; border:none; background:none; max-height: 80px">
+    <th style="width:50%; border:none; background:none"><a href="https://www.patreon.com/bePatron?u=19790203" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></th>
+    <th style="width:50%; border:none; background:none"><a href="https://www.curseforge.com/members/rre36/projects"><img alt="Curseforge" style="max-width:200px" src="https://raw.githubusercontent.com/rre36/rre36.github.io/master/img/curseforge.png"></a></th>
+  </tr>
+</table>
+</div>
+<hr>
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
@@ -40,7 +54,7 @@ bigimg:
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">(Read&nbsp;More)</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">(Show&nbsp;More)</a>
         {% endif %}
       </div>
     </div>
@@ -76,7 +90,3 @@ bigimg:
   {% endif %}
 </ul>
 {% endif %}
-
-<p> </p>
-<a href="https://www.patreon.com/bePatron?u=19790203" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
-<script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
