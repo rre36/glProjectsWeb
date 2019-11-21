@@ -31,7 +31,7 @@ navbar-links:
   Curseforge:
     - Vanilla Plus: https://www.curseforge.com/minecraft/customization/vanilla-plus-shader
   Patreon: "https://www.patreon.com/rre36"
-  Projects: "https://rre36.github.io/"
+  Projects:
     - Kappa Shader: "https://rre36.github.io/kappa_shader_web/"
     - Nostalgia Shader: "https://rre36.github.io/glsl_nostalgia"
     - RRe36's Shader: "https://rre36.github.io/glsl_rshader"
