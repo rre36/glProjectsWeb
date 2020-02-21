@@ -24,7 +24,8 @@ description: Various small shader projects of mine
 # List of links in the navigation bar
 navbar-links:
   #About Me: "aboutme"
-  Screenshots: "screens"
+  Screenshots:
+    - UShader: "ushader_screens"
   #Wiki: "https://github.com/rre36/glsl_kappa/wiki"
   #Issues: "https://github.com/rre36/GLSL-ShaderRepo/issues"
   License: "license"
