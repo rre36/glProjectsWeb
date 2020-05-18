@@ -10,3 +10,10 @@ Simplicissimus Curseforge: 3.0k
 Simplicissimus Github: 4.7k
 Simplicissimus Curseforge: 3.5k
 Total: 8.2k
+
+2020-05-18
+Simplicissimus Github: 7k
+Simplicissimus Curseforge: 14k
+UShader Github: 2k
+UShader Curseforge: 27k
+Total: 50k
